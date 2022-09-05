@@ -1,5 +1,8 @@
-## This script is used to plot Sequencing Depth for each basepair of the full genome length
-## X-axis is the basepair position, Y-axis is the sequencing depth
+####################################################################
+## Plot Sequencing Depth $ each basepair of the full genome length #
+## X-axis is the basepair position                                 #
+## Y-axis is the sequencing depth                                  #
+####################################################################
 
 ## The input file can be generated after aligning the trimmed reads onto Reference Genome
 ## and run command below to get the out.coverage file
