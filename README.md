@@ -1,4 +1,4 @@
-# SequencingQualityRelated
+# PlotSequencingDepth
 
 
 #### The script 'R_Depth_each_basepair_plot' 
