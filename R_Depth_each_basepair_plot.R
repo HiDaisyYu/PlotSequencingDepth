@@ -3,9 +3,9 @@
 
 ## The input file can be generated after aligning the trimmed reads onto Reference Genome
 ## and run command below to get the out.coverage file
-## samtools depth -a --reference RefGenome.fasta out_sorted.bam > out.coverage
+## samtools depth -a --reference RefGenome.fasta out_sorted.bam > 1_out.coverage
 
-EF536003 <- read.table("/Users/Elizabeth/Desktop/out.coverage",
+EF536003 <- read.table("/Users/Elizabeth/Desktop/1_out.coverage",
                        header=FALSE, sep="\t", na.strings="NA", dec=".", strip.white=TRUE)
 library(reshape)
 EF536003 <-rename(EF536003,c(V1="Ref", V2="ReferencGenome_15182bp", V3="Depth"))
